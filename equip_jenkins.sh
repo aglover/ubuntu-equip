@@ -5,6 +5,8 @@
 #  Jenkins CI Equip
 # Licence: MIT
 
+# for more information, please see https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu
+
 
 echo "Assuming Java has already been installed! If not, run equip_java.sh"
 

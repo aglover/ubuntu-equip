@@ -4,7 +4,7 @@
 # 
 ###Run this on a fresh install. It'll do the rest (i.e. update your system). 
 
-For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.com/ami/). The `ubuntu` user has `sudo` privileges; thus, you should run these scripts w/a `sudo` prefix.
+For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.com/ami/). The `ubuntu` user has [`sudo` privileges](http://alestic.com/2009/04/ubuntu-ec2-sudo-ssh-rsync); thus, you should run these scripts w/a `sudo` prefix.
 
 ###To run:
   * Ruby 1.9.2 setup
