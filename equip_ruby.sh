@@ -1,5 +1,10 @@
 #!/bin/sh
 
+#
+# Ubuntu Equip 
+#  Ruby Equip
+# Licence: MIT
+
 sudo apt-get update
 sudo apt-get install build-essential rsync telnet screen man -y
 sudo apt-get install strace tcpdump -y
