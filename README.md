@@ -23,4 +23,4 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
 
 ###Special Thanks
 
-If you are looking to stand up a Rails stack, you should check out [Josh Frye's Rails Ready](https://github.com/joshfng/railsready). It's the way to go (and note, this project doesn't install Rails as this is a `bundle` task that can be handled at the project level). [Ryan McGeary](http://ryan.mcgeary.org/) was also most helpful with Ruby & Mongo setup scripts. 
+If you are looking to stand up a Rails stack, you should check out [Josh Frye's Rails Ready](https://github.com/joshfng/railsready). It's the way to go (ubuntu-equip doesn't install Rails as this is a `bundle` task that can be handled at the project level). [Ryan McGeary](http://ryan.mcgeary.org/) was super helpful with Ruby & Mongo setup scripts. 
