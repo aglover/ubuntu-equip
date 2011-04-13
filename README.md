@@ -1,8 +1,8 @@
 #Ubuntu Equip
-###Setup scripts for Ubuntu inspired by [Rails Ready](https://github.com/joshfng/railsready)
+###Super simple setup scripts for Ubuntu inspired by [Rails Ready](https://github.com/joshfng/railsready)
  
 # 
-###Run this on a fresh install. It'll do the rest. 
+###Run these scripts on a fresh install of Ubuntu. They'll do the rest. 
 
 For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.com/ami/). The `ubuntu` user has [`sudo` privileges](http://alestic.com/2009/04/ubuntu-ec2-sudo-ssh-rsync); thus, you should run these scripts w/a `sudo` prefix.
 
