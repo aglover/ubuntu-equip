@@ -15,10 +15,12 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
 	 * you get latest version of MongoDB
   * Java 1.6 setup
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_java.sh && bash equip_java.sh`
+	 * you'll need to manually accept Sun's license agreement
 	 * you get Sun's Java 6 JDK
   * Jenkins CI setup
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_jenkins.sh && bash equip_jenkins.sh`
-	 * you get latest version of Jenkins CI Server (you must have Java installed first!)		 
+	 * you get latest version of Jenkins CI Server (you must have Java installed first!)	
+	   * Jenkins is running on port 8080	 
   
 
 ###Special Thanks
