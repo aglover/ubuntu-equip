@@ -1,8 +1,8 @@
 #Ubuntu Equip
-###Setup scripts for Ubuntu 
+###Setup scripts for Ubuntu inspired by [Rails Ready](https://github.com/joshfng/railsready)
  
 # 
-###Run this on a fresh install. It'll do the rest (i.e. update your system). 
+###Run this on a fresh install. It'll do the rest. 
 
 For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.com/ami/). The `ubuntu` user has [`sudo` privileges](http://alestic.com/2009/04/ubuntu-ec2-sudo-ssh-rsync); thus, you should run these scripts w/a `sudo` prefix.
 
@@ -20,3 +20,7 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_jenkins.sh && bash equip_jenkins.sh`
 	 * you get latest version of Jenkins CI Server (you must have Java installed first!)		 
   
+
+###Special Thanks
+
+If you are looking to stand up a Rails stack, you should check out [Josh Frye's Rails Ready](https://github.com/joshfng/railsready). It's the way to go (and note, this project doesn't install Rails as this is a `bundle` task that can be handled at the project level). [Ryan McGeary](http://ryan.mcgeary.org/) was also most helpful with Ruby & Mongo setup scripts. 
