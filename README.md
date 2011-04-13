@@ -4,6 +4,8 @@
 # 
 ###Run this on a fresh install. It'll do the rest (i.e. update your system). 
 
+For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.com/ami/). The `ubuntu` user has `sudo` privileges; thus, you should run these scripts w/a `sudo` prefix.
+
 ###To run:
   * Ruby 1.9.2 setup
      * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_ruby.sh && bash equip_ruby.sh`
