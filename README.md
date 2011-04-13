@@ -1,6 +1,5 @@
 #Ubuntu Equip
 ###Setup scripts for Ubuntu 
-###Distro supported: Ubuntu
  
 # 
 ###Run this on a fresh install. It'll do the rest (i.e. update your system). 
