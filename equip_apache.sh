@@ -7,5 +7,4 @@
 
 wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
 
-sudo apt-get install apache2
-sudo apt-get install apache2-common
+sudo apt-get install apache2 -y
