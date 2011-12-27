@@ -15,6 +15,8 @@ cd redis-2.2.4
 make
 sudo make install
 
+cd ~
+
 wget https://github.com/ijonas/dotfiles/raw/master/etc/init.d/redis-server
 sudo mv redis-server /etc/init.d/redis-server
 sudo chmod +x /etc/init.d/redis-server

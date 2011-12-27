@@ -30,6 +30,7 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
      * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_android.sh && bash equip_android.sh`
      * you should have Java and Ant already installed		
      * you get all versions of SDK
+       * this'll take a wee-bit of time
   
 
 ###Special Thanks
