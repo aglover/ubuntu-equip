@@ -40,6 +40,7 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
      * you get latest version of node in apt repository
   * elasticsearch setup
      * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_elasticsearch.sh && bash equip_elasticsearch.sh`
+     * you will need to have Java installed (see Java 1.6 setup above)
      * you get latest version of elasticsearch
 
 
