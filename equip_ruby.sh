@@ -23,7 +23,6 @@ sudo make
 sudo make install
 sudo make install-doc
 
-
-sudo gem update --system
+sudo apt-get install rubygems
 
 sudo gem install bundler 

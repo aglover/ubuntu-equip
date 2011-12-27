@@ -10,4 +10,4 @@
 # sudo passenger-install-apache2-module
 
 sudo sh -c 'echo "deb http://apt.brightbox.net hardy main" > /etc/apt/sources.list.d/passenger-stable.list'
-sudo apt-get install libapache2-mod-passenger -y
+sudo apt-get install libapache2-mod-passenger -y --force-yes
