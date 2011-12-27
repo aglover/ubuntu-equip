@@ -24,4 +24,5 @@ sudo update-rc.d elasticsearch defaults
 
 wget --no-check-certificate https://raw.github.com/aglover/ubuntu-equip/master/etc/elasticsearch.yml
 
-sudo ./elasticsearch.yml /etc/elasticsearch/elasticsearch.yml
+sudo mkdir /etc/elasticsearch
+sudo mv ./elasticsearch.yml /etc/elasticsearch/elasticsearch.yml
