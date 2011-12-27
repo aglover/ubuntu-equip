@@ -10,9 +10,10 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
   * Ruby 1.9.2 setup
      * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_ruby.sh && bash equip_ruby.sh`
      * you get Ruby 1.9.2 latest patch level, Bundler, and Git 
-  * MongoDB 1.8 setup
+  * MongoDB setup
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_mongodb.sh && bash equip_mongodb.sh`
 	 * you get latest version of MongoDB
+	 * configuration: `etc/mongodb.conf`
   * Java 1.6 setup
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_java.sh && bash equip_java.sh`
 	 * you'll need to manually accept Sun's license agreement
@@ -23,7 +24,8 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
 	   * Jenkins is running on port 8080	 
   * Apache 2 setup
      * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_apache.sh && bash equip_apache.sh`
-     * you get Apache 2 + common libs and it'll be running on port 80
+     * you get Apache 2 + common libs and it'll be running on port 80 
+     * configuration: `/etc/apache2/apache2.conf`
 		
   
 
