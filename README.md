@@ -26,7 +26,9 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
      * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_apache.sh && bash equip_apache.sh`
      * you get Apache 2 + common libs and it'll be running on port 80 
      * configuration: `/etc/apache2/apache2.conf`
-		
+  * Android setup
+     * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_android.sh && bash equip_android.sh`
+     * you should have Java and Ant already installed		
   
 
 ###Special Thanks

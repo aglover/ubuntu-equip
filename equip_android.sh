@@ -12,3 +12,4 @@ sudo apt-get update -y
 wget --no-check-certificate http://dl.google.com/android/android-sdk_r16-linux.tgz
 
 sudo gunzip ./android-sdk_r16-linux.tgz
+sudo tar xvf ./android-sdk_r16-linux.tar
