@@ -17,7 +17,7 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
   * Java 1.6 setup
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_java.sh && bash equip_java.sh`
 	 * you'll need to manually accept Sun's license agreement
-	 * you get Sun's Java 6 JDK
+	 * you get Sun's Java 6 JDK and Apache Ant
   * Jenkins CI setup
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_jenkins.sh && bash equip_jenkins.sh`
 	 * you get latest version of Jenkins CI Server (you must have Java installed first!)	
