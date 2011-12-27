@@ -31,7 +31,10 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
      * you should have Java and Ant already installed		
      * you get all versions of SDK
        * this'll take a wee-bit of time
-  
+  * Redis setup
+     * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_redis.sh && bash equip_redis.sh`
+     * you get latest stable version of Redis
+     * redis.redis user/group
 
 ###Special Thanks
 
