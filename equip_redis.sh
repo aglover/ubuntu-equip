@@ -4,6 +4,7 @@
 # Ubuntu Equip 
 #  Redis Equip
 # Licence: MIT
+# with help from http://www.denofubiquity.com/nosql/412/
 
 wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
 
@@ -17,7 +18,7 @@ cd redis-stable
 make install
 make test
 
-wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/redis.conf
+wget --no-check-certificate https://raw.github.com/aglover/ubuntu-equip/master/etc/redis.conf
 sudo mv redis.conf /etc/redis.conf
 
 wget https://github.com/ijonas/dotfiles/raw/master/etc/init.d/redis-server
