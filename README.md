@@ -35,6 +35,9 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
      * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_redis.sh && bash equip_redis.sh`
      * you get latest stable version of Redis
      * redis.redis user/group
+  * Node.js setup
+     * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_node.sh && bash equip_node.sh`
+     * you get latest version of node in apt repository
 
 ###Special Thanks
 
