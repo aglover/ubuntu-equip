@@ -13,7 +13,7 @@ curl -OL https://github.com/downloads/elasticsearch/elasticsearch/elasticsearch-
 unzip elasticsearch-* && rm elasticsearch-*.zip
 sudo mv elasticsearch-* /usr/local/elasticsearch
 
-wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/elasticsearch.init.d
+wget --no-check-certificate https://raw.github.com/aglover/ubuntu-equip/master/etc/elasticsearch.init.d
 
 sudo mv ./elasticsearch.init.d /etc/init.d/elasticsearch
 sudo chmod +x /etc/init.d/elasticsearch

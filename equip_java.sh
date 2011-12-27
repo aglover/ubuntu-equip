@@ -10,4 +10,4 @@ wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/e
 sudo add-apt-repository "deb http://archive.canonical.com/ lucid partner"
 sudo apt-get update -y
 sudo apt-get install sun-java6-jdk -y
-sudo apt-get install ant
+sudo apt-get install ant -y
