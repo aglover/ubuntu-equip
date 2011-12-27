@@ -14,6 +14,16 @@ wget http://download.redis.io/redis-stable.tar.gz
 tar xvzf redis-stable.tar.gz
 cd redis-stable
 
-make
+make install
 make test
+
+wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/redis.conf
+sudo mv redis.conf /etc/redis.conf
+
+wget https://github.com/ijonas/dotfiles/raw/master/etc/init.d/redis-server
+sudo mv redis-server /etc/init.d/redis-server
+sudo chmod +x /etc/init.d/redis-server
+
+sudo update-rc.d redis-server defaults
+sudo /etc/init.d/redis-server start
 
