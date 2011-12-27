@@ -9,7 +9,7 @@
 # Description:       Starts elasticsearch using start-stop-daemon
 ### END INIT INFO
 
-ES_HOME=/usr/local/elasticsearch
+ES_HOME=/home/ubuntu/app47/elasticsearch
 ES_MIN_MEM=256m
 ES_MAX_MEM=2g
 DAEMON=$ES_HOME/bin/elasticsearch
