@@ -21,6 +21,10 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_jenkins.sh && bash equip_jenkins.sh`
 	 * you get latest version of Jenkins CI Server (you must have Java installed first!)	
 	   * Jenkins is running on port 8080	 
+  * Apache 2 setup
+     * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_apache.sh && bash equip_apache.sh`
+     * you get Apache 2 + common libs and it'll be running on port 80
+		
   
 
 ###Special Thanks
