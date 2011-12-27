@@ -1,0 +1,5 @@
+cluster:
+   name:   MyCluster
+
+network:
+   host:   _eth0_
