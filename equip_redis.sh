@@ -19,6 +19,8 @@ make
 make test
 sudo make install
 
+cd ..
+
 wget --no-check-certificate https://raw.github.com/aglover/ubuntu-equip/master/etc/redis.conf
 sudo mv redis.conf /etc/redis.conf
 

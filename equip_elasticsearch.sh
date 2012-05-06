@@ -12,7 +12,7 @@ sudo apt-get install unzip -y
 
 
 curl -OL https://github.com/downloads/elasticsearch/elasticsearch/elasticsearch-0.18.6.zip
-unzip elasticsearch-* && rm elasticsearch-*.zip
+unzip elasticsearch-* && rm -f elasticsearch-*.zip
 mv elasticsearch-0.18.6/ elasticsearch/
 sudo mv elasticsearch/ /usr/local/elasticsearch
 
