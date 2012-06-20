@@ -4,6 +4,7 @@
 # Ubuntu Equip 
 #  elasticsearch Equip
 # Licence: MIT
+# see http://www.elasticsearch.org/tutorials/2010/07/02/setting-up-elasticsearch-on-debian.html
 
 wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
 
@@ -26,3 +27,5 @@ wget --no-check-certificate https://raw.github.com/aglover/ubuntu-equip/master/e
 
 sudo mkdir /etc/elasticsearch
 sudo mv ./elasticsearch.yml /etc/elasticsearch/elasticsearch.yml
+
+# you will need to manually start elasticsearch via /etc/init.d/elasticsearch start
