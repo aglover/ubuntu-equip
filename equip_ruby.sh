@@ -9,7 +9,8 @@ sudo apt-get update
 sudo apt-get install build-essential rsync telnet screen man -y
 sudo apt-get install strace tcpdump -y
 sudo apt-get install libssl-dev zlib1g-dev libcurl3-dev libxslt-dev -y
-sudo apt-get install zlib1g-dev libreadline5-dev -y
+sudo apt-get install zlib1g-dev -y
+sudo apt-get install libreadline-dev -y
 sudo apt-get install gcc g++ linux-headers-generic libsqlite3-dev -y
 
 sudo apt-get install git -y
