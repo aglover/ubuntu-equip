@@ -14,7 +14,7 @@ sudo apt-get install tcl8.5
 wget http://redis.googlecode.com/files/redis-2.4.17.tar.gz
 mv redis-2.4.17.tar.gz redis-stable.tar.gz
 tar xvzf redis-stable.tar.gz
-cd redis-stable
+cd redis-2.4.17
 
 make 
 make test
