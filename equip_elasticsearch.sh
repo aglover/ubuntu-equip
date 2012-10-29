@@ -12,9 +12,9 @@ sudo apt-get update -y
 sudo apt-get install unzip -y
 
 
-curl -OL https://github.com/downloads/elasticsearch/elasticsearch/elasticsearch-0.19.4.zip
+curl -OL https://github.com/downloads/elasticsearch/elasticsearch/elasticsearch-0.19.11.zip
 unzip elasticsearch-* && rm -f elasticsearch-*.zip
-mv elasticsearch-0.19.4/ elasticsearch/
+mv elasticsearch-0.19.11/ elasticsearch/
 sudo mv elasticsearch/ /usr/local/elasticsearch
 
 wget --no-check-certificate https://raw.github.com/aglover/ubuntu-equip/master/etc/elasticsearch.init.d
