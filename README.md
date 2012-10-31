@@ -14,10 +14,10 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_mongodb.sh && bash equip_mongodb.sh`
 	 * you get latest version of MongoDB
 	 * configuration: `etc/mongodb.conf`
-  * Java 1.6 setup
+  * Java 1.7 setup
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_java.sh && bash equip_java.sh`
-	 * you'll need to manually accept Sun's license agreement
-	 * you get Sun's Java 6 JDK and Apache Ant
+	 * you'll need to manually accept Oracle's license agreement
+	 * you get Java 7 JDK and Apache Ant
   * Jenkins CI setup
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_jenkins.sh && bash equip_jenkins.sh`
 	 * you get latest version of Jenkins CI Server (you must have Java installed first!)	
