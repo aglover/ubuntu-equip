@@ -7,7 +7,7 @@
 
 wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
 
-sudo add-apt-repository "deb http://archive.canonical.com/ lucid partner"
+sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update -y
-sudo apt-get install sun-java6-jdk -y
+sudo apt-get install oracle-java7-installer
 sudo apt-get install ant -y
