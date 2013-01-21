@@ -4,6 +4,7 @@
 # Ubuntu Equip 
 #  MongoDB Equip
 # Licence: MIT
+wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
 
 sudo apt-get install tcsh git-core scons g++ -y
 sudo apt-get install libpcre++-dev libboost-dev libreadline-dev xulrunner-1.9.1-dev -y
