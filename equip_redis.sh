@@ -11,10 +11,11 @@ wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/e
 sudo apt-get update -y
 sudo apt-get install tcl8.5
 
-wget http://redis.googlecode.com/files/redis-2.4.17.tar.gz
-mv redis-2.4.17.tar.gz redis-stable.tar.gz
-tar xvzf redis-stable.tar.gz
-cd redis-2.4.17
+# wget http://redis.googlecode.com/files/redis-2.4.17.tar.gz
+wget http://redis.googlecode.com/files/redis-2.6.10.tar.gz
+# mv redis-2.4.17.tar.gz redis-stable.tar.gz
+tar xvzf redis-2.6.10.tar.gz
+cd redis-2.6.10
 
 make 
 make test
