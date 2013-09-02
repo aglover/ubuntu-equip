@@ -7,9 +7,9 @@
 For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.com/ami/) or ami-a562a9cc. The `ubuntu` user has [`sudo` privileges](http://alestic.com/2009/04/ubuntu-ec2-sudo-ssh-rsync); thus, you should run these scripts w/a `sudo` prefix.
 
 ###To run:
-  * Ruby 1.9.2 setup
+  * Ruby 1.9.3 setup
      * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_ruby.sh && bash equip_ruby.sh`
-     * you get Ruby 1.9.2 latest patch level, Bundler, and Git 
+     * you get Ruby 1.9.3 latest patch level, Bundler, and Git 
   * MongoDB setup
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_mongodb.sh && bash equip_mongodb.sh`
 	 * you get latest version of MongoDB
