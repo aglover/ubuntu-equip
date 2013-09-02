@@ -12,9 +12,9 @@ sudo apt-get install libssl-dev zlib1g-dev libcurl3-dev libxslt-dev zlib1g-dev l
 sudo apt-get install gcc g++ linux-headers-generic libsqlite3-dev -y
 
 sudo apt-get install libruby1.9 -y
-sudo wget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz
-sudo tar xzf ruby-1.9.2-p180.tar.gz
-cd ruby-1.9.2-p180
+sudo wget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p448.tar.gz
+sudo tar xzf ruby-1.9.3-p448.tar.gz
+cd ruby-1.9.3-p448
 sudo ./configure
 sudo make
 sudo make install
