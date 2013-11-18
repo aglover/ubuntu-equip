@@ -4,6 +4,7 @@
 # Ubuntu Equip 
 #  Java 7 64-bit Equip
 # Licence: MIT
+# to run: wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_java7_64.sh && bash equip_java7_64.sh
 
 wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
 
@@ -23,4 +24,10 @@ sudo chmod a+x /usr/bin/java
 sudo chmod a+x /usr/bin/javac 
 sudo chmod a+x /usr/bin/javaws
 sudo chown -R root:root /usr/lib/jvm/jdk1.7.0
+
+rm jdk-7-linux-x64.tar.gz
+rm equip_base.sh
+rm equip_java7_64.sh
+
+java -version
 
