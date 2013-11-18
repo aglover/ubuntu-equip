@@ -29,5 +29,7 @@ rm jdk-7-linux-x64.tar.gz
 rm equip_base.sh
 rm equip_java7_64.sh
 
+sudo apt-get install ant -y
+
 java -version
 
