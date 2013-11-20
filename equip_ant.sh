@@ -13,9 +13,9 @@ wget http://apache.mirrors.pair.com/ant/binaries/apache-ant-1.9.2-bin.tar.gz
 tar -zxf apache-ant-1.9.2-bin.tar.gz
 sudo mv apache-ant-1.9.2 /usr/local
 
- sudo ln -s /usr/local/apache-ant-1.9.2/bin/ant /usr/bin/ant
+sudo ln -s /usr/local/apache-ant-1.9.2/bin/ant /usr/bin/ant
 
- rm apache-ant-1.9.2-bin.tar.gz
+rm apache-ant-1.9.2-bin.tar.gz
 
 
 # Open up ~/.bashrc and add the below lines
