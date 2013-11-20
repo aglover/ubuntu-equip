@@ -9,8 +9,8 @@ wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/e
 
 sudo apt-get update -y
 
-wget --no-check-certificate http://dl.google.com/android/android-sdk_r16-linux.tgz
+wget --no-check-certificate http://dl.google.com/android/android-sdk_r22.3-linux.tgz
 
-gunzip ./android-sdk_r16-linux.tgz
-tar xvf ./android-sdk_r16-linux.tar
+gunzip ./android-sdk_r22.3-linux.tgz
+tar xvf ./android-sdk_r22.3-linux.tar
 ./android-sdk-linux/tools/android update sdk --no-ui
