@@ -11,7 +11,6 @@ wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/e
 sudo apt-get update -y
 sudo apt-get install unzip -y
 
-
 curl -OL https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.0.zip
 unzip elasticsearch-* && rm -f elasticsearch-*.zip
 mv elasticsearch-0.90.0/ elasticsearch/
