@@ -17,5 +17,10 @@ sudo mv android-sdk-linux /usr/local
 
 rm android-sdk_r22.3-linux.tgz
 
-/usr/local/android-sdk-linux/tools/android update sdk --no-ui
+sudo apt-get install expect
+
+wget --no-check-certificate https://raw.github.com/aglover/ubuntu-equip/master/etc/android_expect.sh && bash android_expect.sh
+
+rm android_expect.sh
+# /usr/local/android-sdk-linux/tools/android update sdk --no-ui
 
