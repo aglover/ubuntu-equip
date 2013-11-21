@@ -2,7 +2,7 @@
 
 #
 # Ubuntu Equip 
-#  Android Equip
+#  Android Equip (only installs SDKs & Google APIs -- no AVD images, etc)
 # Licence: MIT
 
 wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
