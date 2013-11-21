@@ -5,7 +5,6 @@
 #  Android base install Equip
 # Licence: MIT
 
-sudo apt-get update -y
 wget --no-check-certificate http://dl.google.com/android/android-sdk_r22.3-linux.tgz
 tar -zxf android-sdk_r22.3-linux.tgz
 sudo mv android-sdk-linux /usr/local
