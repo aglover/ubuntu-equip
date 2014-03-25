@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER Andy Glover
+MAINTAINER Andy Glover "ajglover@gmail.com"
 
 RUN apt-get update -y
 RUN apt-get install wget -y
