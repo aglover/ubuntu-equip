@@ -24,6 +24,8 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
   * Java 1.7 64-bit auto setup
    * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_java7_64.sh && bash equip_java7_64.sh`
    * you get the Java 7 JDK for 64-bit
+  * Java 8
+   * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_java8.sh && bash equip_java8.sh`
   * Jenkins CI setup
 	 * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_jenkins.sh && bash equip_jenkins.sh`
 	 * you get latest version of Jenkins CI Server (you must have Java installed first!)	
