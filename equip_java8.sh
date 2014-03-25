@@ -5,7 +5,7 @@
 #  Java 8 Equip
 # Licence: MIT
 
-sudo echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections
+sudo echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
 wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
 
 sudo add-apt-repository ppa:webupd8team/java -y
