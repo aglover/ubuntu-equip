@@ -10,7 +10,7 @@ wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/e
 
 sudo apt-get install curl -y 
 
-curl -L --cookie "oraclelicensejdk-7u25-b15-oth-JPR=accept-securebackup-cookie;gpw_e24=http://edelivery.oracle.com" http://download.oracle.com/otn-pub/java/jdk/7u25-b15/jdk-7u25-linux-x64.tar.gz -o jdk-7-linux-x64.tar.gz
+curl -L --cookie "oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/7u55-b13/jdk-7u55-linux-x64.tar.gz -o jdk-7-linux-x64.tar.gz
 tar -xvf jdk-7-linux-x64.tar.gz
 
 sudo mkdir -p /usr/lib/jvm
