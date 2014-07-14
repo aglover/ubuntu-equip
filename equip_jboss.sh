@@ -4,7 +4,7 @@
 # Ubuntu Equip 
 #  Apache Ant Equip
 # Licence: MIT
-# thanks to http://raycoding.net/2013/02/15/installing-ant-on-ubuntu-or-linux-box/
+# based on equipe_ant.sh
 
 wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
 
