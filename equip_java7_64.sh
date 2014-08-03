@@ -26,8 +26,8 @@ sudo chmod a+x /usr/bin/javaws
 sudo chown -R root:root /usr/lib/jvm/jdk1.7.0_65
 
 rm jdk-7-linux-x64.tar.gz
-rm equip_base.sh -y
-rm equip_java7_64.sh
+rm -f equip_base.sh 
+rm -f equip_java7_64.sh
 
 java -version
 
