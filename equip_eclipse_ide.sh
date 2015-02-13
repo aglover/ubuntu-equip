@@ -14,17 +14,20 @@ fi
 VERSION="eclipse-jee-luna-SR1a-linux-gtk-x86_64.tar.gz"
 LINK="http://eclipse.c3sl.ufpr.br/technology/epp/downloads/release/luna/SR1a/$VERSION"
 
-#wget --no-check-certificate https://github.com/resilva87/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
+wget --no-check-certificate https://github.com/resilva87/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
 wget --no-check-certificate "$LINK"
 
 mv eclipse-jee-luna-SR1a-linux-gtk-x86_64.tar.gz eclipse.tar.gz
+tar -zxvf eclipse.tar.gz
 
 # Will copy to /opt
+sudo cp -R eclipse /opt/
+
 cd /opt/ && sudo tar -zxvf ~/Downloads/eclipse.tar.gz
 
 # Cleanup
-rm ~/Downloads/eclipse.tar.gz
-rm -f equip_base.sh 
-rm -f equip_eclipse_ide.sh
+rm -f ~/eclipse.tar.gz
+rm -f ~/equip_base.sh 
+rm -f ~/equip_eclipse_ide.sh
 
 echo "Installed in /opt/eclipse"
