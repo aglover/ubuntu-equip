@@ -14,7 +14,6 @@ fi
 VERSION="eclipse-jee-luna-SR1a-linux-gtk-x86_64.tar.gz"
 LINK="http://eclipse.c3sl.ufpr.br/technology/epp/downloads/release/luna/SR1a/$VERSION"
 
-wget --no-check-certificate https://github.com/resilva87/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
 wget --no-check-certificate "$LINK"
 
 mv eclipse-jee-luna-SR1a-linux-gtk-x86_64.tar.gz eclipse.tar.gz
