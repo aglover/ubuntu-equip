@@ -21,13 +21,13 @@ mv eclipse-jee-luna-SR1a-linux-gtk-x86_64.tar.gz eclipse.tar.gz
 tar -zxvf eclipse.tar.gz
 
 # Will copy to /opt
-sudo cp -R eclipse /opt/
+sudo mv eclipse /opt/
 
-cd /opt/ && sudo tar -zxvf ~/Downloads/eclipse.tar.gz
+sudo chown -R vagrant:vagrant /opt/eclipse
 
 # Cleanup
-rm -f ~/eclipse.tar.gz
-rm -f ~/equip_base.sh 
-rm -f ~/equip_eclipse_ide.sh
+rm -f eclipse.tar.gz
+rm -f equip_base.sh 
+rm -f equip_eclipse_ide.sh
 
 echo "Installed in /opt/eclipse"
