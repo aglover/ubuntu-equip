@@ -24,15 +24,14 @@ echo "$LINK"
 
 wget --no-check-certificate "$LINK"
 
-mv $FILENAME maven.tar.gz
-tar -zxvf maven.tar.gz -C maven
+mkdir maven && tar -zxvf $FILENAME -C maven --strip-components 1
 
 # Will copy to /opt
-#sudo mv maven /opt/
+sudo mv maven /opt/
 
 # Cleanup
-#rm -f maven.tar.gz
-#rm -f equip_base.sh 
-#rm -f equip_maven3.sh
+rm -f maven.tar.gz
+rm -f equip_base.sh 
+rm -f equip_maven3.sh
 
 echo "Installed in /opt/maven"
