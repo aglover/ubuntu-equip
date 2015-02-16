@@ -24,7 +24,8 @@ echo "$LINK"
 
 wget --no-check-certificate "$LINK"
 
-mkdir maven && tar -zxvf $FILENAME -C maven --strip-components 1
+mkdir maven 
+tar -zxvf $FILENAME -C maven --strip-components 1
 
 # Will copy to /opt
 sudo mv maven /opt/
