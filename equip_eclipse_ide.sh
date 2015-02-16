@@ -22,7 +22,7 @@ tar -zxvf eclipse.tar.gz
 # Will copy to /opt
 sudo mv eclipse /opt/
 
-sudo chown -R vagrant:vagrant /opt/eclipse
+# sudo chown -R vagrant:vagrant /opt/eclipse
 
 # Cleanup
 rm -f eclipse.tar.gz
