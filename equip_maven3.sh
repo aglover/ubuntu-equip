@@ -13,12 +13,14 @@ fi
 
 LATEST="3.2.5"
 
-if (( "$#" != 1 )); then
+if (( "$#" == 1 )); then
 	LATEST=$1
 fi
 
 FILENAME="apache-maven-$LATEST-bin.tar.gz"
 LINK="http://ftp.unicamp.br/pub/apache/maven/maven-3/$LATEST/binaries/$FILENAME"
+
+echo "$LINK"
 
 wget --no-check-certificate "$LINK"
 
