@@ -25,7 +25,7 @@ echo "$LINK"
 wget --no-check-certificate "$LINK"
 
 mv $FILENAME maven.tar.gz
-tar -zxvf maven.tar.gz
+tar -zxvf maven.tar.gz -C maven
 
 # Will copy to /opt
 #sudo mv maven /opt/
