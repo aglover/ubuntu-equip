@@ -8,6 +8,7 @@
 
 if [ -d "/opt/maven" ]; then
 	echo "Maven already installed in /opt/maven, skipping!"
+	rm -f equip_maven3.sh
 	exit 0
 fi
 

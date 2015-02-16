@@ -8,6 +8,7 @@
 
 if [ -d "/opt/eclipse" ]; then
 	echo "Eclipse already installed in /opt/eclipse, skipping!"
+	rm -f equip_eclipse_ide.sh
 	exit 0
 fi
 

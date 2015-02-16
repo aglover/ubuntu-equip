@@ -8,6 +8,7 @@
 
 if [ -d "/usr/lib/jvm/" ]; then
 	echo "There's already an installation of Java JDK in /usr/lib/jvm"
+	rm -f equip_java7_64.sh
 	echo "Skipping..."
 	exit 0
 fi
