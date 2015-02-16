@@ -28,11 +28,11 @@ mv $FILENAME maven.tar.gz
 tar -zxvf maven.tar.gz
 
 # Will copy to /opt
-sudo mv maven /opt/
+#sudo mv maven /opt/
 
 # Cleanup
-rm -f maven.tar.gz
-rm -f equip_base.sh 
-rm -f equip_maven3.sh
+#rm -f maven.tar.gz
+#rm -f equip_base.sh 
+#rm -f equip_maven3.sh
 
 echo "Installed in /opt/maven"
