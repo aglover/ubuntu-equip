@@ -31,7 +31,7 @@ tar -zxvf $FILENAME -C maven --strip-components 1
 sudo mv maven /opt/
 
 # Cleanup
-rm -f maven.tar.gz
+rm -f $FILENAME
 rm -f equip_base.sh 
 rm -f equip_maven3.sh
 
