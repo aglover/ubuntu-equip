@@ -55,6 +55,12 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
   * Docker setup
      * `wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_docker.sh && bash equip_docker.sh`
      * `docker` command requires `sudo` -- `sudo docker run -i -t ubuntu /bin/bash`
+  * Eclipse setup
+     * `wget --no-check-certificate https://github.com/resilva87/ubuntu-equip/raw/master/equip_eclipse_ide.sh && bash equip_eclipse_ide.sh`
+     * you get latest version of Eclipse IDE
+  * Maven setup
+     * `wget --no-check-certificate https://github.com/resilva87/ubuntu-equip/raw/master/equip_maven3.sh && bash equip_maven3.sh [latest_version]`
+     * if `latest_version` parameter is provided, then it will download such version. if not, latest version is downloaded (3.2.5)
 
 
 ###Special Thanks
