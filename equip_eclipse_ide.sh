@@ -25,7 +25,6 @@ sudo mv eclipse /opt/
 
 # Cleanup
 rm -f eclipse.tar.gz
-rm -f equip_base.sh 
 rm -f equip_eclipse_ide.sh
 
 echo "Installed in /opt/eclipse"

@@ -33,7 +33,6 @@ sudo mv maven /opt/
 
 # Cleanup
 rm -f $FILENAME
-rm -f equip_base.sh 
 rm -f equip_maven3.sh
 
 echo "Installed in /opt/maven"
