@@ -61,6 +61,8 @@ For instance, these days I use [Ubuntu's ami-46f4092f AMI](http://cloud.ubuntu.c
   * Maven setup
      * `wget --no-check-certificate https://github.com/resilva87/ubuntu-equip/raw/master/equip_maven3.sh && bash equip_maven3.sh [latest_version]`
      * if `latest_version` parameter is provided, then it will download such version. if not, latest version is downloaded (3.2.5)
+  * PostgreSQL setup
+     * `wget --no-check-certificate https://raw.githubusercontent.com/aglover/ubuntu-equip/master/equip_postgres.sh && bash equip_postgres.sh`
 
 
 ###Special Thanks
